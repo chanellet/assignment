@@ -10,7 +10,7 @@
 /*main content*/
 body {
   background-color: var(--background);
-  background-image: radial-gradient(circle at bottom right, #212d40, #11151c);
+
   color: var(--main-color);
 }
 
@@ -102,9 +102,30 @@ button:active {
   text-decoration: none;
   cursor: pointer;
 }
+.main-grid {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+  padding: 20px;
+  height: 100vh;
+}
 
 .content {
-  flex-grow: 1;
-  text-align: center;
-  margin-top: 2em;
+  margin-left: 150px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 200px;
+  background-color: #364156;
+  border-radius: 60px;
+  background-image: radial-gradient(circle 1400px at top, #212d40, #11151c);
+}
+
+p > span {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+
+h1 {
+  color: var(--link-color1);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
