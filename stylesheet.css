@@ -144,6 +144,7 @@ button:active {
 
 .content {
   padding: 60px;
+  margin-top: 17px;
   margin-right: 10px;
   background-color: var(--background2);
 }
@@ -163,7 +164,6 @@ h1 {
 }
 
 .content p {
-  text-align: center;
   overflow-wrap: break-word;
   white-space: normal;
 }
@@ -173,6 +173,19 @@ h1 {
   width: 500px;
   height: auto;
   border-radius: 50px 0 50px 0;
+}
+
+.content-txt h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  font-size: 20px;
 }
 
 .projects {
@@ -220,6 +233,7 @@ h1 {
 .contact-form {
   width: 500px;
   margin: 0 auto;
+  padding-left: 100px;
 }
 
 input[type="text"],
@@ -246,7 +260,10 @@ textarea {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
 }
 
 /*mobile menu*/
