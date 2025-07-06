@@ -26,7 +26,7 @@ body {
   letter-spacing: 2px;
 }
 
-.navbar {
+navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,15 +46,15 @@ body {
   background-color: var(--background);
 }
 
-.navbar a {
+navbar a {
   color: var(--main-color);
 }
 
-.navbar a:visited {
+navbar a:visited {
   color: var(--main-color);
 }
 
-.navbar a:hover {
+navbar a:hover {
   color: white;
 }
 
@@ -149,7 +149,7 @@ button:active {
   background-color: var(--background2);
 }
 
-.content-txt {
+section {
   flex: 1;
   min-width: 300px;
   padding-right: 10px;
@@ -175,7 +175,7 @@ h1 {
   border-radius: 50px 0 50px 0;
 }
 
-.content-txt h3 {
+section h3 {
   display: flex;
   justify-content: center;
 }
@@ -387,10 +387,10 @@ footer {
     align-items: flex-start;
   }
 
-  .content-txt {
+  section {
     position: relative;
     overflow-wrap: break-word;
-    min-width: none;
+    min-width: 300px;
     translate: 40px;
   }
 
